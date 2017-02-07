@@ -1,34 +1,20 @@
-## Welcome to GitHub Pages
+<HTML>
+  <HEAD>
+    <TITLE>Titre de page</TITLE>
+   <SCRIPT language="JavaScript"> 
+   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript   
 
-You can use the [editor on GitHub](https://github.com/Hindelstark/JS-Game-1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-// Vérifiez que l'utilisateur est prêt à jouer !
+    //--> // Fin de la partie cachée
+    </SCRIPT> 
+ </HEAD>
+  
+ <BODY> 
+  <SCRIPT type="text/JavaScript"> 
+  <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
+  
+  // Vérifiez que l'utilisateur est prêt à jouer !
+  
 confirm("Prêt pour l'aventure ?");
 var age = prompt("Quel est votre âge ?");
 if(age<13) {
@@ -57,6 +43,7 @@ else{
     confirm("Je vais continuer à m'entraîner à coder alors !")
 }
 
-### Support or Contact
+  //--> // Fin de la partie cachée </SCRIPT> 
+ </BODY> 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</HTML>
