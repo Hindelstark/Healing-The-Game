@@ -42,9 +42,10 @@ var retour = prompt("Notez ce jeu de 0 à 10 :");
 return false;
 }
 
-  //--> // Fin de la partie cachée </SCRIPT> 
+  //--> // Fin de la partie cachée 
+  </SCRIPT> 
   
-  <a href=# onclick=return monJeu();>Launch the Game !</a>
+ <p><a href=#onclick=return monJeu();>Launch the Game !</a></p>
 
  </BODY> 
 
