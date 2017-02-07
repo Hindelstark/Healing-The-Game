@@ -9,7 +9,6 @@
   <SCRIPT type="text/JavaScript"> 
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
   
-
 function monJeu()
 {
   confirm("Prêt pour l'aventure ?");
