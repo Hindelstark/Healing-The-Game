@@ -5,10 +5,6 @@
   
  <BODY> 
   
-  <center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/aB2UD0k5CFE" frameborder="0" allowfullscreen></iframe>
-  </center>
-  
   <SCRIPT type="text/JavaScript"> 
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
   
