@@ -7,9 +7,6 @@
    <center>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/aB2UD0k5CFE" frameborder="0" allowfullscreen>  </iframe>
    </center>
- 
-      <p><a href=javascript:void(0); onclick=monJeu()>Launch the game !</a></p>
-
   <SCRIPT type="text/JavaScript"> 
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
   
@@ -51,7 +48,7 @@ var retour = prompt("Notez ce jeu de 0 à 10 :");
 }
 
   //--> // Fin de la partie cachée 
-  
+  <a href=javascript:void(0); onclick=monJeu()>Launch the game !</a>
   </SCRIPT> 
  </BODY> 
 
