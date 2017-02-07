@@ -39,6 +39,7 @@ var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
     confirm ("You manage to escape the beast. You're safe... For Now."); 
     }
     else 
+    {
       confirm("In front of you is a chained gigantic elf beast using the body of a dead human as both a weapon and a snack. He sees you and seems to be ready for a fight!");
       var reponseUtilisateur = prompt("Fight/Help him cook");
        if (reponseUtilisateur==="Fight")
@@ -46,7 +47,7 @@ var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
                confirm("You try to cast a fireball but you fail... The beast kills you in a breath");
            }
             else 
-          {
+            {
               confirm("Thinking he wants help for cooking (What is wrong with you?) you start a modest fire using some branches combined with your magic powers. The giant sees your fire and starts running away in fear while screaming 'FIREEE! NOOO!' He leaves the body on the floor.");
           
                  var reponseUtilisateur = prompt("Follow the giant/Cook the body anyway");
@@ -57,8 +58,10 @@ var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
                           else 
                           {
                           confirm("A group of elves surround you while you are cooking. When they see what you are cooking, they execute you without any warning.");
+                  
                           }
-           }
+            }
+      }
 var retour = prompt("If you want, you are free to rate your experience on a scale from 1 to 10! Write your answer in the chat 🙂");
     if (retour>8)
     {
