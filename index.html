@@ -5,7 +5,6 @@
   
  <BODY> 
    <link rel="stylesheet" href="fonts.css">
-   <body background="https://postimg.org/image/4ly02h9pj/">
     <center><h2 class="entry-title"><a href=index.html; onclick="monJeu();">Launch the game !</a></h2></center>
  
   <SCRIPT type="text/JavaScript"> 
@@ -35,7 +34,7 @@ var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
     }
     else 
       var reponseUtilisateur = prompt("Fight/Help him cook");
-            if (reponseUtilisateur==="Fight")
+       if (reponseUtilisateur==="Fight")
            {
                confirm("You try to cast a fireball but you fail... The beast kills you in a breath");
            }
@@ -52,10 +51,10 @@ var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
                           {
                           confirm("A group of elves surround you while you are cooking. When they see what you are cooking, they execute you without any warning.");
                           }
-          {
-              confirm("Thinking he wants help for cooking (What is wrong with you?) you start a modest fire using some branches combined with your magic powers. The giant sees your fire and starts running away in fear while screaming 'FIREEE! NOOO!' He leaves the body on the floor.");
-          }
-     else confirm ("You manage to escape the beast. You're safe... For Now.")
+     else 
+     {
+     confirm ("You manage to escape the beast. You're safe... For Now.")
+     }
     
 var retour = prompt("If you want, you are free to rate your experience on a scale from 1 to 10! Write your answer in the chat 🙂");
     if (retour>8)
@@ -66,7 +65,6 @@ var retour = prompt("If you want, you are free to rate your experience on a scal
     {
     confirm("I'll continue to learn to code so I can impress you one day!")
     }
-  }
 }
 
   //--> // Fin de la partie cachée 
