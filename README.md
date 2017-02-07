@@ -6,13 +6,8 @@
  <BODY> 
   
   <center>
-  <iframe width="100%" src="https://www.youtube.com/embed/aB2UD0k5CFE" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aB2UD0k5CFE" frameborder="0" allowfullscreen></iframe>
   </center>
-  
-  <script>
-
-</script>
-<a href=# onclick=return monJeu();>lien</a>
   
   <SCRIPT type="text/JavaScript"> 
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
@@ -52,6 +47,9 @@ return false;
 }
 
   //--> // Fin de la partie cachée </SCRIPT> 
+  
+  <a href=# onclick=return monJeu();>Launch the Game !</a>
+
  </BODY> 
 
 </HTML>
