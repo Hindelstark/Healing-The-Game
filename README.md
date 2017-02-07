@@ -5,13 +5,22 @@
   
  <BODY> 
   
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/aB2UD0k5CFE" frameborder="0" allowfullscreen></iframe>
+  <center>
+  <iframe width="100%" src="https://www.youtube.com/embed/aB2UD0k5CFE" frameborder="0" allowfullscreen></iframe>
+  </center>
+  
+  <script>
+
+</script>
+<a href=# onclick=return monJeu();>lien</a>
   
   <SCRIPT type="text/JavaScript"> 
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
   
   // Vérifiez que l'utilisateur est prêt à jouer !
-  
+ 
+ function monJeu()
+{
 confirm("Prêt pour l'aventure ?");
 var age = prompt("Quel est votre âge ?");
     if(age<13) {
@@ -38,6 +47,8 @@ var retour = prompt("Notez ce jeu de 0 à 10 :");
   }
     else{
     confirm("Je vais continuer à m'entraîner à coder alors !")
+}
+return false;
 }
 
   //--> // Fin de la partie cachée </SCRIPT> 
