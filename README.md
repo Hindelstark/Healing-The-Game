@@ -4,7 +4,8 @@
  </HEAD>
   
  <BODY> 
-  
+      <p><a href=javascript:void(0); onclick=monJeu()>Launch the game !</a></p>
+
   <SCRIPT type="text/JavaScript"> 
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
   
@@ -49,8 +50,6 @@ var retour = prompt("Notez ce jeu de 0 à 10 :");
   //--> // Fin de la partie cachée 
   
   </SCRIPT> 
-  <p><a href=javascript:void(0); onclick=monJeu()>Launch the game !</a></p>
- 
  </BODY> 
 
 </HTML>
