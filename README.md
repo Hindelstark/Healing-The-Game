@@ -39,7 +39,6 @@ var retour = prompt("Notez ce jeu de 0 à 10 :");
     else{
     confirm("Je vais continuer à m'entraîner à coder alors !")
 }
-return false;
 }
 
   //--> // Fin de la partie cachée 
