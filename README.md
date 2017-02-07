@@ -44,9 +44,7 @@ return false;
 
   //--> // Fin de la partie cachée 
   </SCRIPT> 
-  
- <p><a href=#onclick=return monJeu();>Launch the Game !</a></p>
-
+  <a href=javascript:void(0); onclick=monJeu()>Lien</a>
  </BODY> 
 
 </HTML>
