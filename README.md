@@ -1,15 +1,10 @@
 <HTML>
   <HEAD>
-    <TITLE>Titre de page</TITLE>
-   <SCRIPT language="JavaScript"> 
-   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript   
-
-
-    //--> // Fin de la partie cachée
-    </SCRIPT> 
+    <TITLE>A game by Hindelstark</TITLE>
  </HEAD>
   
  <BODY> 
+   
   <SCRIPT type="text/JavaScript"> 
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
   
@@ -17,10 +12,10 @@
   
 confirm("Prêt pour l'aventure ?");
 var age = prompt("Quel est votre âge ?");
-if(age<13) {
-console.log("Vous êtes un peu jeune pour ça, non ?");
+    if(age<13) {
+    console.log("Vous êtes un peu jeune pour ça, non ?");
 }
-else   // "autrement"
+    else   // "autrement"
 {
 confirm("A vous de jouer !");
 }
@@ -36,10 +31,10 @@ var reponseUtilisateur = prompt("Voudriez-vous m'embrasser?");
         confirm("Oh non ! Le crapaud dépité s'enfuit en un plongeon !");
 }
 var retour = prompt("Notez ce jeu de 0 à 10 :");
-if (retour>8){
+    if (retour>8){
     confirm("Merci ! A très vite")
-}
-else{
+  }
+    else{
     confirm("Je vais continuer à m'entraîner à coder alors !")
 }
 
