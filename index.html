@@ -16,13 +16,21 @@
 body {
         background-image: url("background.jpg");
 } 
- 
+
 </style>
-   <center><font face="lato"><a href=javascript:void(0); onclick="myGame();">Launch the game !</a></font></center>
+	 <p><font face="lato">Hi, here is 'Healing The Game'.</font>
+	 <p><font face="lato">This little game is based on a story by <a href="https://twitter.com/LVGHSTmusic">In Love With a Ghost</a> and developped by <a href="https://twitter.com/Hindelstark">Hindelstark.</a></font>
+	 <p><font face="lato">Clic <a href="https://www.youtube.com/watch?v=aB2UD0k5CFE">here</a> to listen to the introduction of Healing EP, the enchanting music that inspired this game.</font>
+	 <p><font face="lato">To read the introduction, clic on 'Story'. If you just want to play, then clic 'Launch the game!'</font>
+	 <p><font face="lato">Thank you for playing, see you soon !</font>
+
+  <p><center><font face="lato"><a href=javascript:void(0); onclick="myStory();">Story</a></font></center></p>
+  <p><center><font face="lato"><a href=javascript:void(0); onclick="myGame();">Launch the game !</a></font></center></p>
 	 
 	 <SCRIPT type="text/JavaScript">  
     <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
-
+function myStory()
+{
 swal({   title: "Are you sure?",
       text: "You will not be able to recover this imaginary file!",
       type: "warning",
@@ -31,7 +39,8 @@ swal({   title: "Are you sure?",
       confirmButtonText: "Yes, delete it!",
       closeOnConfirm: false },
      function()
-     {   swal("Deleted!", "Your imaginary file has been deleted.", "success"); });
+     {   swal("Deleted!", "Your imaginary file has been deleted.", "success"); })
+}
 --> // Fin de la partie cachée 
 	
 	</SCRIPT> 
