@@ -24,6 +24,7 @@
 <p><font face="lato">Clic <a href="https://www.youtube.com/watch?v=aB2UD0k5CFE" target="_blank" >here</a> to listen to the introduction of Healing EP, the enchanting music that inspired this game.</font></p>
 <p><font face="lato">To read the introduction, clic on 'Story'. If you just want to play, then clic 'Start the adventure !'</font></p>
 <p><font face="lato">Be sure to </font></p>
+<p><font face="lato">Thank you for playing, see you soon !</font></p>
 
 <center>
 	<div style="padding:3px; padding-left:6px; width:175px; border:1px dotted #d0d0d0; border-left:1px dotted #d0d0d0; margin-left:20px; font-style:italic;">
@@ -276,7 +277,9 @@ swal(
          return false   }
   if (inputValue === "Fight") 
     {     
-      swal("You try to cast a fireball but you fail... The beast kills you in a breath");
+      swal({
+	title: "Game Over",
+	text: "You try to cast a fireball but you fail... The beast kills you in a breath"});
     }
   else swal({   
   title: "",
@@ -295,17 +298,18 @@ swal(
          return false   }
   if (inputValue === "Follow the giant") 
     {     
-      swal("The giant notices that you're following him... The beast turn his back and kills you in a breath.");
+      swal({
+	title: "Game Over", 
+	text: "The giant notices that you're following him... The beast turn his back and kills you in a breath."});
     }
   else swal({
-    title: "",
+    title: "Game Over",
     text: "A group of elves surround you while you are cooking. When they see what you are cooking, they execute you without any warning."}); 
 }
 ); 
 }
 ); 
 });
-swal("Thank you for playing, see you soon");	
 }
 --> // Fin de la partie cachée 
   </SCRIPT> 
