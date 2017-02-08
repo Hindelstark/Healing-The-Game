@@ -203,40 +203,23 @@ function myStory()
 
 function myGame()
 {
-confirm("You are in the forest, completely focused on your training : lighting candles from 2 meters away using your fire spell. Suddenly you hear a noise behind you and freeze completely, scared that someone might see your training and make fun of you. Or maybe it's something.. dangerous?");
-
-var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
-    if (reponseUtilisateur==="Run")
-    {
-    confirm ("You manage to escape the beast. You're safe... For Now."); 
-    }
-    else 
-    {
-      confirm("In front of you is a chained gigantic elf beast using the body of a dead human as both a weapon and a snack. He sees you and seems to be ready for a fight!");
-      var reponseUtilisateur = prompt("Fight/Help him cook");
-       if (reponseUtilisateur==="Fight")
-           {
-               confirm("You try to cast a fireball but you fail... The beast kills you in a breath");
-           }
-            else 
-            {
-              confirm("Thinking he wants help for cooking (What is wrong with you?) you start a modest fire using some branches combined with your magic powers. The giant sees your fire and starts running away in fear while screaming 'FIREEE! NOOO!' He leaves the body on the floor.");
-          
-                 var reponseUtilisateur = prompt("Follow the giant/Cook the body anyway");
-                          if (reponseUtilisateur==="Follow the giant")
-                          {
-                          confirm("The giant notices that you're following him... The beast turn his back and kills you in a breath.");  
-                          }
-                          else 
-                          {
-                          confirm("A group of elves surround you while you are cooking. When they see what you are cooking, they execute you without any warning.");
-                  
-                          }
-            }
-      }
-
-confirm("Thank you for playing, see you soon")
-   
+swal(
+{   
+  title: "",
+  text: "You are in the forest, completely focused on your training : lighting candles from 2 meters away using your fire spell. Suddenly you hear a noise behind you and freeze completely, scared that someone might see your training and make fun of you. Or maybe it's something.. dangerous?,
+  type: "input",
+  showCancelButton: true,
+  closeOnConfirm: false,
+  animation: "slide-from-top",
+  inputPlaceholder: "What do you do? (Hide/Run)"
+  },
+  function(inputValue)
+  {   
+  if (inputValue === false) return false; 
+  if (inputValue === "") 
+    {     swal.showInputError("You need to write something!");     return false   }      
+  swal("Nice!", "You wrote: " + inputValue, "success"); 
+});   
 }
 --> // Fin de la partie cachée 
   </SCRIPT> 
