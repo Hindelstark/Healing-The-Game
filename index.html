@@ -206,7 +206,7 @@ function myGame()
 swal(
 {   
   title: "",
-  text: "You are in the forest, completely focused on your training : lighting candles from 2 meters away using your fire spell. Suddenly you hear a noise behind you and freeze completely, scared that someone might see your training and make fun of you. Or maybe it's something.. dangerous?",
+  text: "You are in the forest, completely focused on your training : lighting candles from 2 meters away using your fire spell. Suddenly you hear a noise behind you and freeze completely, scared that someone might see your training and make fun of you. Or maybe it's something.. dangerous?,
   type: "input",
   showCancelButton: true,
   closeOnConfirm: false,
@@ -217,9 +217,14 @@ swal(
   {   
   if (inputValue === false) return false; 
   if (inputValue === "") 
-    {     swal.showInputError("You need to write something!");     return false   }      
-  swal("Nice!", "You wrote: " + inputValue, "success"); 
-});   
+    {     swal.showInputError("You need to write something!");
+         return false   }
+  if (inputValue === "Run") 
+    {     
+      swal("You manage to escape the beast. You're safe... For Now.");
+    }
+  else swal("In front of you is a chained gigantic elf beast using the body of a dead human as both a weapon and a snack. He sees you and seems to be ready for a fight!"); 
+});  
 }
 --> // Fin de la partie cachée 
   </SCRIPT> 
