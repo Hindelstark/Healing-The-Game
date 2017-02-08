@@ -223,8 +223,50 @@ swal(
     {     
       swal("You manage to escape the beast. You're safe... For Now.");
     }
-  else swal("In front of you is a chained gigantic elf beast using the body of a dead human as both a weapon and a snack. He sees you and seems to be ready for a fight!"); 
-});  
+  else swal({   
+  title: "",
+  text: "In front of you is a chained gigantic elf beast using the body of a dead human as both a weapon and a snack. He sees you and seems to be ready for a fight!",
+  type: "input",
+  showCancelButton: true,
+  closeOnConfirm: false,
+  animation: "slide-from-top",
+  inputPlaceholder: "Fight/Help him cook"
+  },
+  function(inputValue)
+  {   
+  if (inputValue === false) return false; 
+  if (inputValue === "") 
+    {     swal.showInputError("You need to write something!");
+         return false   }
+  if (inputValue === "Fight") 
+    {     
+      swal("You try to cast a fireball but you fail... The beast kills you in a breath");
+    }
+  else swal({   
+  title: "",
+  text: "Thinking he wants help for cooking (What is wrong with you?) you start a modest fire using some branches combined with your magic powers. The giant sees your fire and starts running away in fear while screaming 'FIREEE! NOOO!' He leaves the body on the floor.",
+  type: "input",
+  showCancelButton: true,
+  closeOnConfirm: false,
+  animation: "slide-from-top",
+  inputPlaceholder: "Follow the giant/Cook the body anyway"
+  },
+  function(inputValue)
+  {   
+  if (inputValue === false) return false; 
+  if (inputValue === "") 
+    {     swal.showInputError("You need to write something!");
+         return false   }
+  if (inputValue === "Follow the giant") 
+    {     
+      swal("The giant notices that you're following him... The beast turn his back and kills you in a breath.");
+    }
+  else swal({text: "A group of elves surround you while you are cooking. When they see what you are cooking, they execute you without any warning."}); 
+}
+); 
+}
+); 
+});   
 }
 --> // Fin de la partie cachée 
   </SCRIPT> 
