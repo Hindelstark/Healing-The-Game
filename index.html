@@ -21,11 +21,11 @@ body {
 	 <p><font face="lato">Hi, here is 'Healing The Game'.</font>
 	 <p><font face="lato">This little game is based on a story by <a href="https://twitter.com/LVGHSTmusic">In Love With a Ghost</a> and developped by <a href="https://twitter.com/Hindelstark">Hindelstark.</a></font>
 	 <p><font face="lato">Clic <a href="https://www.youtube.com/watch?v=aB2UD0k5CFE">here</a> to listen to the introduction of Healing EP, the enchanting music that inspired this game.</font>
-	 <p><font face="lato">To read the introduction, clic on 'Story'. If you just want to play, then clic 'Launch the game!'</font>
+	 <p><font face="lato">To read the introduction, clic on 'Story'. If you just want to play, then clic 'Start the adventure !'</font>
 	 <p><font face="lato">Thank you for playing, see you soon !</font>
 
   <p><center><font face="lato"><a href=javascript:void(0); onclick="myStory();">Story</a></font></center></p>
-  <p><center><font face="lato"><a href=javascript:void(0); onclick="myGame();">Launch the game !</a></font></center></p>
+  <p><center><font face="lato"><a href=javascript:void(0); onclick="myGame();">Start the adventure !</a></font></center></p>
 	 
 	 <SCRIPT type="text/JavaScript">  
     <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
@@ -51,6 +51,7 @@ swal({   title: "Are you sure?",
 
 function myGame()
 {
+confirm("You are in the forest, completely focused on your training : lighting candles from 2 meters away using your fire spell. Suddenly you hear a noise behind you and freeze completely, scared that someone might see your training and make fun of you. Or maybe it's something.. dangerous?"");
 var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
     if (reponseUtilisateur==="Run")
     {
