@@ -40,15 +40,52 @@ function myStory()
 {
 	swal({   title: "",
    	 text: "A nice witch appears...",
-    	 type: "warning",
+    	 type: "info",
+	 showConfirmButton: true,
     	 showCancelButton: false,
     	 confirmButtonColor: "#B5E655",
      	 confirmButtonText: "Ok",
      	 closeOnConfirm: false },
     	 function()
 		{   
-		swal("Deleted!", "Your imaginary file has been deleted.", "success");
+		swal(
+			swal({   title: "",
+   	 		text: "A nice witch appears...",
+    	 		type: "warning",
+    	 		showCancelButton: false,
+    	 		confirmButtonColor: "#B5E655",
+     			confirmButtonText: "Ok",
+     	 		closeOnConfirm: false },
+    	 		function()
+				{   
+				swal(
+					swal({   title: "",
+   	 				text: "A nice witch appears...",
+    	 				type: "warning",
+    	 				showCancelButton: false,
+    	 				confirmButtonColor: "#B5E655",
+     	 				confirmButtonText: "Ok",
+     	 				closeOnConfirm: false },
+    	 				function()
+						{   
+						swal(
+							swal({   title: "",
+   	 						text: "A nice witch appears...",
+    	 						type: "warning",
+    	 						showCancelButton: false,
+    	 						confirmButtonColor: "#B5E655",
+     	 						confirmButtonText: "Ok",
+     							closeOnConfirm: false },
+    	 						function()
+								{   
+								swal("Deleted!", "Your imaginary file has been deleted.", "success");
+									});
+						    );
+						});
+				    );
 		});
+		);
+	});
 }
 --> // Fin de la partie cachée 	
 </SCRIPT> 
