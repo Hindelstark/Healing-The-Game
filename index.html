@@ -4,16 +4,23 @@
  </HEAD>
   
  <BODY> 
+   // Liens vers mes CSS (fonts et Sweet Alert)
    <link rel="stylesheet" href="fonts.css">
+   <script src="sweetalert-master/dist/sweetalert.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+  // Backbground CSS
    <style>
 body {
         background-image: url("background.jpg");
 } 
  
 </style>
+   //'Launch the game' button
    <center><font face="lato"><a href=javascript:void(0); onclick="myGame();">Launch the game !</a></font></center>
- 
+  // Script JS
   <SCRIPT type="text/JavaScript"> 
+    
+    swal("Oops!", "Something went wrong on the page!", "error");
   <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
     
 function myGame()
