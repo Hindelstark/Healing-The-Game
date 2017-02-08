@@ -38,15 +38,35 @@
 
 function myStory()
 {
-	swal({   title: "Are you sure?",
-   	 text: "You will not be able to recover this imaginary file!",
+	swal({   title: "",
+   	 text: "A nice witch appears...",
     	 type: "warning",
-    	 showCancelButton: true,
-    	 confirmButtonColor: "#DD6B55",
-     	 confirmButtonText: "Yes, delete it!",
+    	 showCancelButton: false,
+    	 confirmButtonColor: "#B5E655",
+     	 confirmButtonText: "Ok",
      	 closeOnConfirm: false },
     	 function()
-    	 {   swal("Deleted!", "Your imaginary file has been deleted.", "success"); })
+    	 {	swal({   title: "",
+   	 	text: "Hello",
+    	 	type: "warning",
+    	 	showCancelButton: false,
+    	 	confirmButtonColor: "#B5E655",
+     	 	confirmButtonText: "Ok",
+     	 	closeOnConfirm: false },
+    	 	function()
+    	 	{ 	swal({   title: "",
+   	 		text: "I'm pleased to meet you",
+    	 		type: "warning",
+    	 		showCancelButton: false,
+    	 		confirmButtonColor: "#B5E655",
+     	 		confirmButtonText: "Ok",
+     	 		closeOnConfirm: false },
+    	 		function()
+    	 		{   swal(); 
+			}
+			    )); 
+		})); 
+	 })
 }
 --> // Fin de la partie cachée 	
 </SCRIPT> 
