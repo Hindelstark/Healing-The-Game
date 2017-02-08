@@ -23,18 +23,15 @@ body {
 	 <SCRIPT type="text/JavaScript">  
     <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
 
-sweetAlert
-    ({
-	title:"",
-	text: "A nice witch appears...",
-	type:"info",
-	confirmButtonText: "ok",
-	closeOnConfirm: false,}); 	
-	function(isConfirm)
-	{
-		if (isConfirm) {sweetAlert({title:"", text: "Hello",type:"info",});
-				
-	});
+swal({   title: "Are you sure?",
+      text: "You will not be able to recover this imaginary file!",
+      type: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#DD6B55",
+      confirmButtonText: "Yes, delete it!",
+      closeOnConfirm: false },
+     function()
+     {   swal("Deleted!", "Your imaginary file has been deleted.", "success"); });
 --> // Fin de la partie cachée 
 	
 	</SCRIPT> 
