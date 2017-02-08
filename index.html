@@ -12,48 +12,51 @@
   
  <BODY> 
    
-   <style>
-body {
+<style>
+	body 
+	{
         background-image: url("background.jpg");
-} 
-
+	} 
 </style>
-	 <p><font face="lato">Hi, here is 'Healing The Game'.</font></p>
-	 <p><font face="lato">This little game is based on a story by <a href="https://twitter.com/LVGHSTmusic" target="_blank" >In Love With a Ghost</a> and developped by <a href="https://twitter.com/Hindelstark" target="_blank" >Hindelstark</a>.</font></p>
-	 <p><font face="lato">Clic <a href="https://www.youtube.com/watch?v=aB2UD0k5CFE" target="_blank" >here</a> to listen to the introduction of Healing EP, the enchanting music that inspired this game.</font></p>
-	 <p><font face="lato">To read the introduction, clic on 'Story'. If you just want to play, then clic 'Start the adventure !'</font></p>
-	 <p><font face="lato">Thank you for playing, see you soon !</font></p>
-<div style="padding:4px;width:300px; border:4px solid #e0e0e0;">
-<div style="padding:3px;width:299px; background-color:#e0e0e0;">
-  <p><center><font face="lato"><a href=javascript:void(0); onclick="myStory();">Story</a></font></center></p>
-  <p><center><font face="lato"><a href=javascript:void(0); onclick="myGame();">Start the adventure !</a></font></center></p>
-</div>
-</div>	 
-	 <SCRIPT type="text/JavaScript">  
-    <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
+	 
+<p><font face="lato">Hi, here is 'Healing The Game'.</font></p>
+<p><font face="lato">This little game is based on a story by <a href="https://twitter.com/LVGHSTmusic" target="_blank" >In Love With a Ghost</a> and developped by <a href="https://twitter.com/Hindelstark" target="_blank" >Hindelstark</a>.</font></p>
+<p><font face="lato">Clic <a href="https://www.youtube.com/watch?v=aB2UD0k5CFE" target="_blank" >here</a> to listen to the introduction of Healing EP, the enchanting music that inspired this game.</font></p>
+<p><font face="lato">To read the introduction, clic on 'Story'. If you just want to play, then clic 'Start the adventure !'</font></p>
+<p><font face="lato">Thank you for playing, see you soon !</font></p>
+
+<center>
+	<div style="padding:4px;width:300px; border:4px solid #e0e0e0;">
+	<div style="padding:3px;width:299px; background-color:#e0e0e0;">
+  		<p><center><font face="lato"><a href=javascript:void(0); onclick="myStory();">Story</a></font></center></p>
+ 		<p><center><font face="lato"><a href=javascript:void(0); onclick="myGame();">Start the adventure !</a></font></center></p>
+	</div>
+	</div>	
+</center> 
+
+<SCRIPT type="text/JavaScript">  
+<!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
+
 function myStory()
 {
-swal({   title: "Are you sure?",
-      text: "You will not be able to recover this imaginary file!",
-      type: "warning",
-      showCancelButton: true,
-      confirmButtonColor: "#DD6B55",
-      confirmButtonText: "Yes, delete it!",
-      closeOnConfirm: false },
-     function()
-     {   swal("Deleted!", "Your imaginary file has been deleted.", "success"); })
+	swal({   title: "Are you sure?",
+   	 text: "You will not be able to recover this imaginary file!",
+    	 type: "warning",
+    	 showCancelButton: true,
+    	 confirmButtonColor: "#DD6B55",
+     	 confirmButtonText: "Yes, delete it!",
+     	 closeOnConfirm: false },
+    	 function()
+    	 {   swal("Deleted!", "Your imaginary file has been deleted.", "success"); })
 }
---> // Fin de la partie cachée 
+--> // Fin de la partie cachée 	
+</SCRIPT> 
 	
-	</SCRIPT> 
-	
-	<SCRIPT type="text/JavaScript">  
-
+<SCRIPT type="text/JavaScript">  
 <!-- // Cache ce qui suit aux navigateurs qui ne supportent pas JavaScript 
 
 function myGame()
 {
-
 confirm("You are in the forest, completely focused on your training : lighting candles from 2 meters away using your fire spell. Suddenly you hear a noise behind you and freeze completely, scared that someone might see your training and make fun of you. Or maybe it's something.. dangerous?");
 
 var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
@@ -89,7 +92,6 @@ var reponseUtilisateur = prompt("What do you do? (Hide/Run)");
 confirm("Thank you for playing, see you soon")
    
 }
-
 --> // Fin de la partie cachée 
   </SCRIPT> 
  </BODY> 
