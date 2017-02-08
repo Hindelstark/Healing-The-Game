@@ -25,12 +25,11 @@ sweetAlert({title:"", text: "A nice witch appears...",
 	    type:"info",
 	    confirmButtonText: "ok",
 	    closeOnConfirm: false,}); 	
+		function(isConfirm){
+		if (isConfirm) {sweetAlert({title:"", text: "Hello",type:"info",});
+				
+} });
 
-	    function(isConfirm){
-	    if (isConfirm) {     swal("Deleted!", "Your imaginary file has been deleted.", "success");   }
-	    else {     swal("Cancelled", "Your imaginary file is safe :)", "error");   } });
-
-sweetAlert({title:"", text: "Hello",type:"info",}); 	
 sweetAlert({title:"", text: "I'm pleased to meet you",type:"info",}); 	
 sweetAlert({title:"", text: "My name is Nemu and I need to tell you something",type:"info",}); 	
 sweetAlert({title:"", text: "I live in a lost place, trapped here for eternity...",type:"info",}); 	
